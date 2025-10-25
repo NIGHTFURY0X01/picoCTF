@@ -16,11 +16,11 @@ The server log contained many small fragments of the flag labeled FLAGPART. By e
 
 . wget — download the challenge log file
 
-. ls, cat, grep, sort, awk — standard shell tools for inspection and processing
+. ls, cat, grep, sort, awk standard shell tools for inspection and processing
 
 + Steps & Commands
 
-1. Download the log file (example — you already did this)
+1. Download the log file (example  you already did this)
 
 ![Step 1](images/1.png)
 
