@@ -83,7 +83,7 @@ picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
 picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
 ```
 
-Notes & Tips
++ Notes & Tips
 
 . Always order fragments by timestamp when logs are involved  timestamps indicate the correct sequence.
 
