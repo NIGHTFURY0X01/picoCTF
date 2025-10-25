@@ -59,9 +59,9 @@ cedfa5fb}
 
 5. Remove duplicates and concatenate fragments
 
-.Visual inspection shows sk1lls_ and cedfa5fb} are repeated. We only need each fragment once in timestamp order.
+. Visual inspection shows sk1lls_ and cedfa5fb} are repeated. We only need each fragment once in timestamp order.
 
-.Concatenate unique fragments in their chronological order:
+. Concatenate unique fragments in their chronological order:
 
 + Fragments in order (unique):
 
