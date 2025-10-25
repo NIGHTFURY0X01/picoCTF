@@ -13,7 +13,7 @@
 
 + The provided PDF looked like meaningless or garbled content, but the flag was hidden in the file's metadata. I used exiftool to inspect the PDF metadata, found a Base64 encoded string, decoded it, and recovered the flag.
 
-## Tools
+## Tools :
 
 + exiftool (read file metadata)
 
@@ -21,7 +21,7 @@
 
 + wget (download challenge file)
 
-## Steps & Commands
+## Steps & Commands :
 
 1. Install exiftool (if not already installed)
 
