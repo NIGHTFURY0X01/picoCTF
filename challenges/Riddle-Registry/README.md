@@ -1,26 +1,27 @@
-picoCTF — Riddle-Registry (PDF metadata) Writeup
+>> picoCTF — Riddle-Registry (PDF metadata) Writeup
 
-. Challenge: Hidden flag inside a PDF file's metadata
++ Challenge: Hidden flag inside a PDF file's metadata
 
-. Category: Forensics / Steganography (metadata)
++ Category: Forensics / Steganography (metadata)
 
-. Level : Easy
++ Level : Easy
 
-. Author: NIGHTFURY0X01(Arash)
++ Author: NIGHTFURY0X01(Arash)
+---
 
-+ Summary : 
+## Summary : 
 
-The provided PDF looked like meaningless or garbled content, but the flag was hidden in the file's metadata. I used exiftool to inspect the PDF metadata, found a Base64 encoded string, decoded it, and recovered the flag.
++ The provided PDF looked like meaningless or garbled content, but the flag was hidden in the file's metadata. I used exiftool to inspect the PDF metadata, found a Base64 encoded string, decoded it, and recovered the flag.
 
-+ Tools
+## Tools
 
-. exiftool (read file metadata)
++ exiftool (read file metadata)
 
-. base64 (decode Base64 strings)
++ base64 (decode Base64 strings)
 
-. wget (download challenge file)
++ wget (download challenge file)
 
-+ Steps & Commands
+## Steps & Commands
 
 1. Install exiftool (if not already installed)
 
@@ -40,7 +41,7 @@ The provided PDF looked like meaningless or garbled content, but the flag was hi
 ![Step 4](images/4.png)
 
 
-In the exiftool output you will see many metadata fields. One of the fields contained a Base64 encoded string similar to:
+## In the exiftool output you will see many metadata fields. One of the fields contained a Base64 encoded string similar to:
 
 ```bash 
 
@@ -54,13 +55,13 @@ cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0=
 
 ![Step 5](images/5.png)
 
-+ Notes & Tips
+## Notes & Tips
 
-. exiftool shows XMP and PDF metadata fields where CTF authors often hide flags (Author, Keywords, Comments, custom XMP tags, etc.).
++ exiftool shows XMP and PDF metadata fields where CTF authors often hide flags (Author, Keywords, Comments, custom XMP tags, etc.).
 
-. If you find a suspicious string, check whether it's encoded (Base64, hex, etc.) and decode accordingly.
++ If you find a suspicious string, check whether it's encoded (Base64, hex, etc.) and decode accordingly.
 
-. When adding screenshots to your repo, sanitize any personal usernames or sensitive info (cover or blur them).
++ When adding screenshots to your repo, sanitize any personal usernames or sensitive info (cover or blur them).
 
-. Keep writeups concise and reproducible: include commands, sample outputs, and the final flag.
++ Keep writeups concise and reproducible: include commands, sample outputs, and the final flag.
 
