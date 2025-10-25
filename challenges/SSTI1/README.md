@@ -140,17 +140,4 @@ picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_09365533}
 + The server process was running as root, which made reading local files trivial. In production systems, running app processes as root is insecure.
 
 + Important: all actions above were performed by typing payloads into the web form and submitting — no CLI tooling was required.
----
-## Mitigations (for developers)
 
-+ To prevent SSTI and related RCE risks:
-
-+ Do not render raw user input inside templates. Escape user-supplied content or use safe display functions.
-
-+ Use template engine sandboxing (Jinja2 sandbox, strict environments) and avoid exposing request, application, or __builtins__ to templates.
-
-+ Run application processes with least privilege (do not run as root).
-
-+ Validate and sanitize inputs; treat inputs strictly as data.
-
-+ Apply defense-in-depth: input validation, output encoding, template auto-escaping, and minimal runtime privileges.
