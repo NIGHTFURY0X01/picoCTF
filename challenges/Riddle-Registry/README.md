@@ -10,7 +10,7 @@ picoCTF — Riddle-Registry (PDF metadata) Writeup
 
 + Summary : 
 
-The provided PDF looked like meaningless or garbled content, but the flag was hidden in the file's metadata. I used exiftool to inspect the PDF metadata, found a Base64-encoded string, decoded it, and recovered the flag.
+The provided PDF looked like meaningless or garbled content, but the flag was hidden in the file's metadata. I used exiftool to inspect the PDF metadata, found a Base64 encoded string, decoded it, and recovered the flag.
 
 + Tools
 
@@ -40,7 +40,7 @@ The provided PDF looked like meaningless or garbled content, but the flag was hi
 ![Step 4](images/4.png)
 
 
-In the exiftool output you will see many metadata fields. One of the fields contained a Base64-encoded string similar to:
+In the exiftool output you will see many metadata fields. One of the fields contained a Base64 encoded string similar to:
 
 ```bash 
 
