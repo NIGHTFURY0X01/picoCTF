@@ -1,8 +1,11 @@
 >> picoCTF — SSTI1 (Server-Side Template Injection) Writeup
 
 **Challenge:** SSTI1 — Server-Side Template Injection  
-**Category:** Web — SSTI / Template Injection  
+
+**Category:** Web — SSTI / Template Injection 
+
 **Author:** NIGHTFURY0X01 (Arash)
+
 **Level:** Easy
 
 ---
@@ -55,14 +58,14 @@ I loaded the challenge instance in my browser and located the announcement form:
 ```
 ![Step 3](images/3.png)
 
-. Then I submitted the form. The page returned and showed:
++ Then I submitted the form. The page returned and showed:
 ```bash
 49
 ```
 
 ![Step 4](images/4.png)
 
-. This confirmed the server is evaluating template expressions (SSTI).
++ This confirmed the server is evaluating template expressions (SSTI).
 
 ### 3. Escalate to command execution via Python builtins
 
@@ -73,7 +76,7 @@ I loaded the challenge instance in my browser and located the announcement form:
 ```
 ![Step 5](images/5.png)
 
-. After submitting the form, the page reflected:
++ After submitting the form, the page reflected:
 
 ```bash
 uid=0(root) gid=0(root) groups=0(root)
@@ -81,7 +84,7 @@ uid=0(root) gid=0(root) groups=0(root)
 
 ![Step 6](images/6.png)
 
-. This shows the process is running as root, and that os.popen() is usable to execute shell commands.
++ This shows the process is running as root, and that os.popen() is usable to execute shell commands.
 
 
 ### 4. Enumerate files in the working directory
@@ -93,7 +96,7 @@ Next, I listed files by submitting:
 ```
 ![Step 7](images/7.png)
 
-The page returned:
++ The page returned:
 
 ```bash
 __pycache__
@@ -104,7 +107,7 @@ requirements.txt
 
 ![Step 8](images/8.png)
 
-. This confirmed a flag file exists in the application directory.
++ This confirmed a flag file exists in the application directory.
 
 
 ### 5. Read the flag file
@@ -117,13 +120,13 @@ Finally, I retrieved the flag by submitting:
 
 ![Step 9](images/9.png)
 
-. The page returned the flag:
++ The page returned the flag:
 ```bash
 picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_09365533}
 ```
 ![Step 10](images/10.png)
 
-##Final Flag:
+## Final Flag:
 ```bash
 picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_09365533}
 ```
