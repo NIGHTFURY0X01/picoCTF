@@ -1,9 +1,9 @@
 picoCTF — Riddle-Registry (PDF metadata) Writeup
 
-Challenge: Hidden flag inside a PDF file's metadata
-Category: Forensics / Steganography (metadata)
-Level : Easy
-Author: NIGHTFURY0X01(Arash)
+. Challenge: Hidden flag inside a PDF file's metadata
+. Category: Forensics / Steganography (metadata)
+. Level : Easy
+. Author: NIGHTFURY0X01(Arash)
 
 + Summary : 
 
