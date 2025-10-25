@@ -12,7 +12,7 @@ I enjoy exploring challenges that test my **problem solving skills**, **creativi
 
 ---
 
-+ Repository Purpose
+## Repository Purpose
 
 This repository is dedicated to my **solutions and write-ups for picoCTF challenges**.  
 Here you will find:
@@ -26,7 +26,7 @@ Here you will find:
 
 ---
 
-+ How This Repository Works
+## How This Repository Works
 
-- Each challenge has its **own folder** under `challenges/`, e.g.:
+. Each challenge has its **own folder** under `challenges/`, e.g.:
 
