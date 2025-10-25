@@ -8,7 +8,7 @@ Welcome to my picoCTF write-ups repository! 👋
 
 Hi, I'm **Arash (NIGHTFURY0X01)**.  
 I'm passionate about **cybersecurity**, especially areas like **penetration testing** and **Red Team activities**.  
-I enjoy exploring challenges that test my **problem-solving skills**, **creativity**, and **technical knowledge**.
+I enjoy exploring challenges that test my **problem solving skills**, **creativity**, and **technical knowledge**.
 
 ---
 
