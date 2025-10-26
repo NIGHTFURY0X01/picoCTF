@@ -105,7 +105,7 @@ import re, sys, time
 
 # Remote target
 HOST = 'rescued-float.picoctf.net'
-PORT = picoCTF_host(example: 58934)
+PORT =  #picoCTF_host(example: 58934)
 
 # Local binary (optional for local testing)
 EXE = './vuln'
