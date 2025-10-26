@@ -202,7 +202,7 @@ if __name__ == '__main__':
 
 ```
 
-![Step 2](images/2.png)
+![Step 3](images/3.png)
 
 ### Usage
 
