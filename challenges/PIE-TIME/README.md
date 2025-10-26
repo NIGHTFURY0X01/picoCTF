@@ -55,7 +55,7 @@ offset_win = 0x12a7
 ```
 ![Step 2](images/2.png)
 
-> (These offsets are from readelf -s ./vuln — they are the symbol values inside the file.)
+> (These offsets are from readelf -s ./vuln  they are the symbol values inside the file.)
 
 ### 2. Connect to the remote service and capture the leak
 
