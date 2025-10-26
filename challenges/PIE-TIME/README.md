@@ -102,10 +102,12 @@ target = base + offset_win
 # exploit.py — pwntools exploit for rescued-float (picoCTF)
 from pwn import *
 import re, sys, time
+x = int(input("Port:")) #picoCTF_host(example: 58934)
 
 # Remote target
+
 HOST = 'rescued-float.picoctf.net'
-PORT =  #picoCTF_host(example: 58934)
+PORT =   x
 
 # Local binary (optional for local testing)
 EXE = './vuln'
