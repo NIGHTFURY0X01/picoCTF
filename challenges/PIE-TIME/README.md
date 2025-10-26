@@ -22,7 +22,7 @@ $ nc rescued-float.picoctf.net 56330
 
 ## Summary 
 
-> The program leaks a runtime address for main. Using the main offset (from the local binary) we compute the load base (base = leaked_main - offset_main). Adding the known offset of the win function gives the runtime address of win (target = base + offset_win). Sending that address to the service causes it to jump to win, which prints the flag. No brute forcing, no stack smashing, and no ROP needed — just an info leak + PIE arithmetic.
+> The program leaks a runtime address for main. Using the main offset (from the local binary) we compute the load base (base = leaked_main - offset_main). Adding the known offset of the win function gives the runtime address of win (target = base + offset_win). Sending that address to the service causes it to jump to win, which prints the flag. No brute forcing, no stack smashing, and no ROP needed  just an info leak + PIE arithmetic.
 
 ## Tools
 
