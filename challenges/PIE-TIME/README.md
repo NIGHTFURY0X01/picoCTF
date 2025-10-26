@@ -26,15 +26,15 @@ $ nc rescued-float.picoctf.net 56330
 
 ## Tools
 
-> readelf, objdump, strings — inspect the binary and get symbol offsets
+> readelf, objdump, strings  inspect the binary and get symbol offsets
 
-> Python 3 + [pwntools] — automate connection, parse the leak, do arithmetic and send the target address
+> Python 3 + [pwntools]  automate connection, parse the leak, do arithmetic and send the target address
 
-> nc (netcat) — quick manual testing / banner inspection
+> nc (netcat) quick manual testing / banner inspection
 
 > A text editor for the exploit script
 
-## Steps — practical, interactive steps I followed
+## Steps  practical, interactive steps I followed
 
 ### 1. Inspect the binary to find symbol offsets
 
