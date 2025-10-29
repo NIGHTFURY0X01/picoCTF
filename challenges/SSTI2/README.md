@@ -1,6 +1,6 @@
->> picoCTF — SSTI1 (Server-Side Template Injection) Writeup
+>> picoCTF — SSTI2 (Server-Side Template Injection) Writeup
 
-**Challenge:** SSTI1 — Server-Side Template Injection  
+**Challenge:** SSTI2 — Server-Side Template Injection  
 
 **Category:** Web — SSTI / Template Injection 
 
