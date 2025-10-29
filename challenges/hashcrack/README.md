@@ -53,10 +53,12 @@ wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rocky
 ```
 
 ## hashcat mode mapping (common modes used here):
+```bash
 | 32 chars | MD5 | `-m 0` |
 | 40 chars | SHA1 | `-m 100` |
 | 64 chars | SHA256 | `-m 1400` |
 | 128 chars | SHA512 | `-m 1700` |
+```
 
 ## Commands (copy-and-run) 
 + Crack the example hashes using the `rockyou.txt` wordlist.
