@@ -67,7 +67,7 @@ Run `objdump -d vuln` (local binary) and locate `<main>` and `<win>` addresses. 
 $ nc rescued-float.picoctf.net <Random Port> #Example: 54102
 Enter your name:
 ```
-![Step 1](images/1.png)
+![Step 1](image/1.png)
 
 + Leak:
 ```perl
@@ -210,4 +210,4 @@ python exploit_auto.py 59006
 + (replace `59006` with the challenge port if different)
 
 
-![Step 2](images/2.png)
+![Step 2](image/2.png)
