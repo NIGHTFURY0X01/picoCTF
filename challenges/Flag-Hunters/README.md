@@ -1,4 +1,4 @@
->> Writeup — Flag Hunters 
+>> Writeup — Flag Hunters (picoCTF)
 
 **Challenge:**  Flag Hunters
 
