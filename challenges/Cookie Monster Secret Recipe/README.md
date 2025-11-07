@@ -19,7 +19,7 @@ This challenge presents a simple HTML page with a login form that posts to `logi
 ---
 
 
-![Step 1](images/1.png)
+![Step 1](image/1.png)
 
 ## Steps to gather more information:
 
@@ -27,7 +27,7 @@ This challenge presents a simple HTML page with a login form that posts to `logi
 2. Use browser DevTools (Network tab) and inspect requests when interacting with the page.
 3. Inspect cookies and responses for encoded or otherwise suspicious values.
 
-![Step 2](images/2.png)
+![Step 2](image/2.png)
 
 During inspection, a suspicious string was observed (likely as a cookie or query parameter):
 
@@ -67,7 +67,7 @@ Example (combined one-liner, Python):
 echo "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzc4QjRDMzkwfQ%3D%3D" | base64 -d
 ```
 
-![Step 3](images/3.png)
+![Step 3](image/3.png)
 
 This outputs the flag in plaintext.
 
