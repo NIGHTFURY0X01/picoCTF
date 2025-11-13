@@ -133,6 +133,7 @@ echo -n "cEF6endvcmQ=" | base64 -d
 
 ```bash
 sudo apt update && sudo apt install steghide
+```
 
 
 
