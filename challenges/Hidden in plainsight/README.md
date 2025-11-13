@@ -133,17 +133,7 @@ echo -n "cEF6endvcmQ=" | base64 -d
 
 ```bash
 sudo apt update && sudo apt install steghide
-```
 
-* If the image was corrupted during download, re-download and verify file size or checksum.
-
----
-
-## Why this worked
-
-* The EXIF metadata (`Comment`) contained a Base64-encoded hint pointing to `steghide` and the passphrase. Hiding hints in metadata is a common CTF steganography trick.
-* The passphrase being double-encoded (Base64 inside Base64) added a small extra step.
-* `steghide` supports embedded file compression and AES encryption (rijndael-128 in CBC mode), and will decompress/decrypt automatically if supplied the correct passphrase.
 
 
 
