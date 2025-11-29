@@ -31,7 +31,7 @@ ctf-player@picoctf.org
 <!-- ABGR: Wnpx - grzcbenel olcnff: hfr urnqre "K-Qri-Npprff: lrf" -->
 <!-- Remove before pushing to production! -->
 ```
-![Step 1](image/1.png)
+![Step 1](images/1.png)
 
 + The encoded string uses ROT13, a common CTF hint.
 
@@ -47,7 +47,7 @@ echo "hfr urnqre \"K-Qri-Npprff: lrf\"" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```bash
 use header "X-Dev-Access: yes"
 ```
-![Step 2](image/2.png)
+![Step 2](images/2.png)
 
 + This indicates a hidden developer access header that may bypass authentication.
 
@@ -88,7 +88,7 @@ X-Dev-Access: yes
   "flag": "picoCTF{brut4_f0rc4_3e21b3a3}"
 }
 ```
-![Step 3](image/3.png)
+![Step 3](images/3.png)
 
 ## Result
 ```bash
