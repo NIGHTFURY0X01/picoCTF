@@ -14,7 +14,7 @@
 
 + The provided PDF looked like meaningless or garbled content, but the flag was hidden in the file's metadata. I used exiftool to inspect the PDF metadata, found a Base64 encoded string, decoded it, and recovered the flag.
 
-## ools
+## Tools
 
 > exiftool (read file metadata)
 
