@@ -72,4 +72,3 @@ cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0=
 
 
 
-picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
