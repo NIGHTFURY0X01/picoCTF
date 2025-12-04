@@ -1,4 +1,4 @@
-# Writeup --- Hidden in plainsight
+# Writeup - Hidden in plainsight
 
 **Challenge:** Hidden in plainsight
 **Category:** Forensics
