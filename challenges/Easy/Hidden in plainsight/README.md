@@ -1,8 +1,11 @@
 # Writeup - Hidden in plainsight
 
 **Challenge:** Hidden in plainsight
+
 **Category:** Forensics
+
 **Author:** NIGHTFURY0X01 (Arash)
+
 **Level:** Easy
 
 ------------------------------------------------------------------------
