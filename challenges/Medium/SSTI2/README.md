@@ -1,6 +1,6 @@
 >> picoCTF — SSTI2
 
-**hallenge name:** SSTI2 (Server-Side Template Injection)
+**Challenge name:** SSTI2 (Server-Side Template Injection)
 
 **Category:** Web / SSTI (Template Injection)
 
