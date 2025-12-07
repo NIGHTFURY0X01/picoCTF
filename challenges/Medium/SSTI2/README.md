@@ -1,6 +1,6 @@
 >> picoCTF — SSTI2
 
-**hallenge name:** SSTI2 (Server-Side Template Injection)
+**Challenge name:** SSTI2 (Server-Side Template Injection)
 
 **Category:** Web / SSTI (Template Injection)
 
@@ -13,10 +13,6 @@
 ## Summary
 + We confirmed the app evaluates template expressions. Starting with a harmless test `{{7*7}}` returned `49`, confirming template evaluation. We then used the application’s Python environment to import `os` via the template builtins and execute shell commands with `os.popen(...)`. Using that technique we ran `id`, `ls`, and finally `cat flag` to retrieve the flag:
 
-```bash
-picoCTF{sst1_f1lt3r_byp4ss_6787c4d8}
-```
----
 
 ## Steps / Exploitation 
 ![Step 1](images/1.png)

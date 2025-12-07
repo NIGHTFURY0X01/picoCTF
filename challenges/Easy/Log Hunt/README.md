@@ -8,7 +8,7 @@
 
 ---
 
-## SummaryS
+## Summary
 
 The challenge provides a server log file where fragments of a secret flag are leaked in different lines. Some parts appear multiple times, out of order, or mixed with unrelated logs.  
 The task is to download the log file, extract the flag fragments, and reconstruct the original flag.
